@@ -24,7 +24,7 @@ Install tailwindcss and @tailwindcss/cli via npm.
 </br>
 </br>
 
-<p style ="color:blue;">
+<p style="color:blue;">
 Import Tailwind in your CSS
 Add the @import "tailwindcss"; import to your main CSS file.
 </p>
@@ -35,7 +35,7 @@ Add the @import "tailwindcss"; import to your main CSS file.
 </br>
 </br>
 
-<p style ="color:blue;">
+<p style="color:blue;">
 Start the Tailwind CLI build process
 Run the CLI tool to scan your source files for classes and build your CSS.
 </p>
