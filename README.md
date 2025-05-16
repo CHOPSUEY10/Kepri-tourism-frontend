@@ -13,10 +13,10 @@
 </br>
 </br>
 
-<span style color="lightblue">
+<p style color="blue">
 Install Tailwind CSS
 Install tailwindcss and @tailwindcss/cli via npm.
-</span>
+</p>
 </br>
 
 **npm install tailwindcss @tailwindcss/cli**
@@ -24,10 +24,10 @@ Install tailwindcss and @tailwindcss/cli via npm.
 </br>
 </br>
 
-<span style color="lightblue">
+<p style color="blue">
 Import Tailwind in your CSS
 Add the @import "tailwindcss"; import to your main CSS file.
-</span>
+</p>
 </br>
 
 **@import "tailwindcss";**
@@ -35,10 +35,10 @@ Add the @import "tailwindcss"; import to your main CSS file.
 </br>
 </br>
 
-<span style color="lightblue">
+<p style color="blue">
 Start the Tailwind CLI build process
 Run the CLI tool to scan your source files for classes and build your CSS.
-</span>
+</p>
 </br>
 
 **npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch**
