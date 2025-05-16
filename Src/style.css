@@ -8,15 +8,26 @@
     pointer-events:stroke;
 } 
 
-.rekomen div {
+
+.rekomen{
+    height: 110vh;
+    justify-items: center;
+    border-radius: 5%;
+    margin-inline: 7vw;
+    margin-block: 3vh;
+    padding-inline: 2vw;
+    padding-block: 15vh;
+
+}
+
+.rekomen > div {
     border-radius: 3vh;
     background-color: white;
-    border-style:solid;
-    border-color:black;
+    border-style:none;
     border-width: 1px;
-    width:40vw;
-    height:70vh;
-    padding-block:5vh;
+    width:18vw;
+    height:36vh;
     
+
 }
 
