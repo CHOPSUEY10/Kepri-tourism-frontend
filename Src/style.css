@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "font.css";
 
 .search-input {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='100' height='100' viewBox='0 0 30 30'%3E%3Cpath d='M 13 3 C 7.4886661 3 3 7.4886661 3 13 C 3 18.511334 7.4886661 23 13 23 C 15.396652 23 17.59741 22.148942 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148942 17.59741 23 15.396652 23 13 C 23 7.4886661 18.511334 3 13 3 z M 13 5 C 17.430666 5 21 8.5693339 21 13 C 21 17.430666 17.430666 21 13 21 C 8.5693339 21 5 17.430666 5 13 C 5 8.5693339 8.5693339 5 13 5 z'%3E%3C/path%3E%3C/svg%3E");
@@ -10,13 +11,14 @@
 
 
 .rekomen{
-    height: 110vh;
+    height: 115vh;
     justify-items: center;
     border-radius: 5%;
     margin-inline: 7vw;
     margin-block: 3vh;
     padding-inline: 2vw;
     padding-block: 15vh;
+    justify-content: center;
 
 }
 
@@ -30,4 +32,125 @@
     
 
 }
+
+.desc {
+    position:relative;
+    z-index: 1;
+    background-size: cover;
+    justify-self: center;
+    border-radius: inherit;
+    margin-top: 4%;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.box {
+    padding-inline-start: 5px;
+    height:fit-content;
+
+}
+
+.content {
+    padding-inline: 12px;
+    padding-top:0px;
+}
+        
+.content h1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+        
+.tours-info {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 8px;
+}
+        
+        /* Location section */
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+        
+.location-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: #333;
+}
+        
+.arrow-link {
+    background-color: #ffee00;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+} 
+
+.rating {
+    position: absolute;
+    background-color: white;
+    border-radius: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    padding-inline:1%;
+    padding-block: 1%;
+    width:fit-content;
+    height:fit-content;
+    right:-2%;
+    bottom: -2%;
+
+}
+
+.content {
+    padding-inline:10% ;
+    padding-block:3%;
+ }
+        
+.content h1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+        
+.tours-info {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 8px;
+}
+        
+        /* Location section */
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: 10px;
+}
+        
+.location-info {
+    display: flex;
+    align-items: left;
+    gap: 5px;
+    font-size: 12px;
+    color: #333;
+}
+        
+.arrow-link {
+    background-color: #ffee00;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
 
